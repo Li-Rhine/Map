@@ -5,4 +5,5 @@ public interface Map<K, V> {
     boolean contains(K key);
     V get(K key);
     void set(K key, V newValue);
+    V remove(K key);
 }
